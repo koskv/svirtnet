@@ -10,7 +10,7 @@ Vcs-Browser: https://gitlab.clodo.ru/packages/package-svirtnet
 
 Package: svirtnet
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, libvirt-bin
 Description: svirtnet
  svirtnet server written in golang.
 
